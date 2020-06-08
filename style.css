@@ -154,6 +154,33 @@ footer{
 }
 
 /*starting with laptop screens*/
+@media (max-width:1366px){
+    
+h1{
+    font-size:2.5rem;
+    
+    }
+
+.main-class{
+    max-width:100%;
+    height:auto;
+    
+    }
+
+.flexy-three{
+    flex-direction:row;
+
+    }
+
+.project-class{
+    width:40%;
+    height:40%;
+    padding:5%;
+
+    }
+
+}
+
 /*tablets are targeted next*/
 @media (max-width:800px){
     .flexy-one{
