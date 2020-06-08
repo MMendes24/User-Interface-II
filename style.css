@@ -130,20 +130,31 @@ body{
     font-size:3.5rem;
 }
 
-.link-three{
+.link-contact2{
     color:white;
     background-color:black;
     text-decoration:none;
     text-align:center;
-    font-size:2.5rem;
+    font-size:3.0rem;
+}
+
+.link-three2{
+
+    color:white;
+    background-color:black;
+    text-decoration:none;
+    text-align:center;
+    font-size:3.0rem;
 }
 
 footer{
     background-color:#B9AEBC; 
     width:100%;
-    padding:10%;
+    padding:5%;
 }
 
+/*starting with laptop screens*/
+/*tablets are targeted next*/
 @media (max-width:800px){
     .flexy-one{
         flex-direction:column;
@@ -174,7 +185,7 @@ footer{
     }
 
 }
-
+/*larger phones are next to last*/
 @media (max-width:500px){
     .flexy-one{
         flex-direction:column;
@@ -207,4 +218,42 @@ footer{
     .link-project2{
         font-size:2.0rem;
     }
+
+/*tiny phones go last in a Desktop first approach*/
+@media (max-width:360px){
+
+.flexy-one{
+    flex-direction:column;
+}
+
+nav {
+    display:flex;
+    flex-direction:column;
+}
+
+.flexy-one h1{
+    font-size:1.5rem;
+}
+
+.hero-text h2{
+    font-size:2rem;
+}
+.project-class{
+    width:40%;
+    height:40%;
+    padding:5%;
+}
+
+.link-project2{
+    font-size:1.0rem;
+}
+
+.link-contact2{
+    font-size:1.0rem;
+}
+
+.link-three2{
+    font-size:1.0rem;
+}
+
 }
