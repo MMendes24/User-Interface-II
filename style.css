@@ -146,23 +146,12 @@ footer{
 
 @media (max-width:800px){
     .flexy-one{
-        display:column;
-        align-items:center;
-        justify-content:center;
-        flex-wrap:wrap;
+        flex-direction:column;
     }
 
-    .link-one{
-        width:10%;
-        
+    nav {
+        display:flex;
+        flex-direction:column;
     }
 
-    .flexy-three{
-        flex-wrap:wrap;
-        align-items:center;
-    }
-
-    .project-class{
-        width:50%;
-    }
 }
